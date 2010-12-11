@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main(int argc, const char *argv[])
+{
+    int a=97; //init a
+    printf("int=%d\n",a); 
+    printf("char=%c\n",a);
+    printf("0x%x\n",a);
+    printf("0x%x\n",&a);
+    printf("sizeof int is%d\n",sizeof(int));
+    printf("sizeof int is%d\n",sizeof(char));
+    printf("sizeof int is%d\n",sizeof(float));
+    return 0;
+}
