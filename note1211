@@ -26,3 +26,10 @@ __#!/bin/bash
   chmod +x makr.sh // change 
 
     ./makr.sh
+sudo mv /bin/mark.sh /bin/mark
+
+#### vim global variable 
+
+:%s / / /gc
+ example :%s /\home\/peter/$HOME/gc
+__\ 
