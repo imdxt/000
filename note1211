@@ -11,3 +11,18 @@ int main(int argc, const char *argv[])
     printf("sizeof int is%d\n",sizeof(float));
     return 0;
 }
+
+##### Bash script
+
+vim mark.sh 
+
+__#!/bin/bash
+    cd /home/dong/job-akae.wiki
+    git pull
+    markdown  note-qhd.md > file1.html
+    firefox file1.html&
+    echo done
+
+  chmod +x makr.sh // change 
+
+    ./makr.sh
