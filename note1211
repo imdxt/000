@@ -9,6 +9,12 @@ int main(int argc, const char *argv[])
     printf("sizeof int is%d\n",sizeof(int));
     printf("sizeof int is%d\n",sizeof(char));
     printf("sizeof int is%d\n",sizeof(float));
+    for(i=0;i<129;i++)
+    {
+        printf("(%-3d--0x%x=%c)\t",i,i,i);//t=Tab 
+        if((i+1)%5==0)
+        putchar('\n');
+    }
     return 0;
 }
 
