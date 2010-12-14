@@ -21,7 +21,7 @@ int main(int argc, const char *argv[])
 ##### Bash script
 
 vim mark.sh 
-
+//bash 脚本
 __#!/bin/bash
     cd /home/dong/job-akae.wiki
     git pull
@@ -29,13 +29,13 @@ __#!/bin/bash
     firefox file1.html&
     echo done
 
-  chmod +x makr.sh // change 
+  chmod +x makr.sh // change 改变访问权限
 
     ./makr.sh
 sudo mv /bin/mark.sh /bin/mark
 
-#### vim global variable 
+#### vim global variable 全局替换
 
 :%s / / /gc
  example :%s /\home\/peter/$HOME/gc
-__\ 
+__\ 转译符
